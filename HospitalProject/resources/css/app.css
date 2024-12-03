@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --white: #ffffff;
+    --primary: #8ecae6;
+    --secondary: #219ebc;
+    --accent-100: #023047;
+    --accent-200: #ffb703;
+    --accent-300: #fb8500;
+}
+
+:root[data-theme="dark"] {
+    --white: #1f2937;
+    --primary: #60a5fa;
+    --secondary: #10b981;
+    --accent-100: #f8fdcf;
+    --accent-200: #e2f6ca;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    /* min-height: 2000px; */
+}
